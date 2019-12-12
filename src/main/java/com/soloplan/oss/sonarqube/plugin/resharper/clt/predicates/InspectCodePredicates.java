@@ -35,7 +35,7 @@ public final class InspectCodePredicates {
    * start of the string and ensuring that the match will consist of at least three characters.
    */
   private static final Pattern PATTERN_ISSUE_IDENTIFIER_CSHARP =
-      Pattern.compile("^\\s*(?!AngularHtml\\.|Asp\\.|Cpp|Css|Es\\dFeature|Html\\.|VB|Web\\.|WebConfig\\.)\\S{3,}", Pattern.CASE_INSENSITIVE);
+      Pattern.compile("^\\s*(?!Cpp|Es\\dFeature|VB)\\S{3,}", Pattern.CASE_INSENSITIVE);
 
   /**
    * A case-insensitive, pre-compiled regular expression {@link Pattern} that includes specific strings, which are set as value of {@link

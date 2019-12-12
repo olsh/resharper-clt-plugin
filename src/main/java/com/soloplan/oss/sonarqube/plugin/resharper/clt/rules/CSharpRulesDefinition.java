@@ -59,7 +59,8 @@ public class CSharpRulesDefinition
         InspectCodePredicates.hasValidIssueSeverity(),
         InspectCodePredicates.hasNonEmptyIssueDescription(),
         InspectCodePredicates.isCSharpIssueDefinition(),
-        InspectCodePredicates.isVisualBasicIssueDefinition().negate(),
-        InspectCodePredicates.isWebRelatedCategory().negate());
+        InspectCodePredicates.isVisualBasicIssueDefinition().negate()
+        // InspectCodePredicates.isWebRelatedCategory().negate()
+    );
   }
 }

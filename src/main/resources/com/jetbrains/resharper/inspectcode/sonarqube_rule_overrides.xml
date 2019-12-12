@@ -1,34 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~    Copyright 2018 Soloplan GmbH
-  ~
-  ~    Licensed under the Apache License, Version 2.0 (the "License");
-  ~    you may not use this file except in compliance with the License.
-  ~    You may obtain a copy of the License at
-  ~
-  ~        http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~    Unless required by applicable law or agreed to in writing, software
-  ~    distributed under the License is distributed on an "AS IS" BASIS,
-  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~    See the License for the specific language governing permissions and
-  ~    limitations under the License.
-  -->
-<Overrides xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=""  xmlns="urn:/com/soloplan/oss/sonarqube/plugin/resharper/clt/xml">
-  <SonarRuleOverride SonarRuleKey="ArrangeThisQualifier" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="CheckNamespace" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="CSharpWarnings::CS0618" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
-  <SonarRuleOverride SonarRuleKey="CSharpWarnings::CS1573" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="CSharpWarnings::CS1591" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="CSharpWarnings::CS1587" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="DuplicateResource" SonarRuleType="BUG" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="InconsistentNaming" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="InvalidXmlDocComment" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="NonReadonlyMemberInGetHashCode" SonarRuleType="BUG" SonarSeverity="MAJOR"/>
-  <SonarRuleOverride SonarRuleKey="PossibleMultipleEnumeration" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
-  <SonarRuleOverride SonarRuleKey="RedundantArgumentDefaultValue" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="RedundantDefaultMemberInitializer" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="RedundantUsingDirective" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-  <SonarRuleOverride SonarRuleKey="ResxNotResolved" SonarRuleType="BUG" SonarSeverity="MAJOR"/>
-  <SonarRuleOverride SonarRuleKey="TabsAreDisallowed" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+<Overrides xmlns="urn:/com/soloplan/oss/sonarqube/plugin/resharper/clt/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="">
+	<SonarRuleOverride SonarRuleKey="AnnotationRedundancyInHierarchy" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="ArrangeStaticMemberQualifier" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="Asp.Entity" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="AspUnusedRegisterDirectiveHighlighting" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="AssignedValueIsNeverUsed" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="CenterTagIsObsolete" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="CheckNamespace" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="CoercedEqualsUsing" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="ConditionIsAlwaysTrueOrFalse" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="ConstantConditionalAccessQualifier" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS0162" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS0612" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS0618" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS1574,CS1584,CS1581,CS1580" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS1591" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS1998" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="CssBrowserCompatibility" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="DeclarationIsEmpty" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="ElidedTrailingElement" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="EmptyConstructor" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="EmptyGeneralCatchClause" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="EmptyNamespace" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="EmptyStatement" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="EnumUnderlyingTypeIsInt" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="ExpressionIsAlwaysNull" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="Html.AttributeNotResolved" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="Html.AttributeValueNotResolved" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="Html.EventNotResolved" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="Html.IdDuplication" SonarRuleType="BUG" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="Html.IdNotResolved" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="Html.Obsolete" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="Html.PathError" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="ImplicitAnyError" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="InconsistentNaming" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="InvalidXmlDocComment" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="LocalizableElement" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="MissingHasOwnPropertyInForeach" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="NonReadonlyMemberInGetHashCode" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="NotAccessedField.Compiler" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="NotAccessedField.Local" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="NotAccessedVariable" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="NotAccessedVariable.Compiler" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="NotAllPathsReturnValue" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="NotResolvedInText" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="ParameterOnlyUsedForPreconditionCheck.Local" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="PartialTypeWithSinglePart" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="PossibleIntendedRethrow" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="PossibleInvalidOperationException" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="PossibleMultipleEnumeration" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="PrivateFieldCanBeConvertedToLocalVariable" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantAnonymousTypePropertyName" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantArgumentDefaultValue" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantAssignment" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="RedundantBaseConstructorCall" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantBlock" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantBoolCompare" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantCaseLabel" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantCast" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantCatchClause" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantComparisonWithBoolean" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantDefaultMemberInitializer" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantDelegateCreation" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantElseBlock" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantEmptyObjectOrCollectionInitializer" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantEmptySwitchSection" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantExplicitArrayCreation" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantExplicitArraySize" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantExtendsListEntry" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantNameQualifier" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantStringFormatCall" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantTernaryExpression" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantToStringCall" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantTypeArgumentsOfMethod" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantUnits" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="RedundantUsingDirective" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="StatementTermination" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="StringCompareIsCultureSpecific.1" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="StringIndexOfIsCultureSpecific.1" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="ThisInGlobalContext" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="TsNotResolved" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="TsResolvedFromInaccessibleModule" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="UndeclaredGlobalVariableUsing" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="UnknownCssClass" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="UnsafeCommaInObjectPropertiesList" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="UnusedAutoPropertyAccessor.Local" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="UnusedLocalImport" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="UnusedLocals" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="UnusedMember.Local" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="UnusedMethodReturnValue.Local" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="UnusedParameter" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="UnusedParameter.Local" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="UnusedVariable" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="UnusedVariable.Compiler" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="UsageOfPossiblyUnassignedValue" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
+	<SonarRuleOverride SonarRuleKey="UseOfImplicitGlobalInFunctionScope" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+	<SonarRuleOverride SonarRuleKey="UsingOfReservedWord" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
 </Overrides>
