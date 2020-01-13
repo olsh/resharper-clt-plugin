@@ -10,9 +10,11 @@
 	<SonarRuleOverride SonarRuleKey="CoercedEqualsUsing" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
 	<SonarRuleOverride SonarRuleKey="ConditionIsAlwaysTrueOrFalse" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
 	<SonarRuleOverride SonarRuleKey="ConstantConditionalAccessQualifier" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="ConstructorCallNotUsed" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
 	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS0162" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
 	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS0612" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
 	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS0618" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS0672" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
 	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS1574,CS1584,CS1581,CS1580" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
 	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS1591" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
 	<SonarRuleOverride SonarRuleKey="CSharpWarnings::CS1998" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
@@ -34,6 +36,7 @@
 	<SonarRuleOverride SonarRuleKey="Html.PathError" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
 	<SonarRuleOverride SonarRuleKey="ImplicitAnyError" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
 	<SonarRuleOverride SonarRuleKey="InconsistentNaming" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="InheritdocInvalidUsage" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
 	<SonarRuleOverride SonarRuleKey="InvalidXmlDocComment" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
 	<SonarRuleOverride SonarRuleKey="LocalizableElement" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
 	<SonarRuleOverride SonarRuleKey="MissingHasOwnPropertyInForeach" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
