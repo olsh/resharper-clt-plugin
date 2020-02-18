@@ -86,7 +86,7 @@
 	<SonarRuleOverride SonarRuleKey="TsResolvedFromInaccessibleModule" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
 	<SonarRuleOverride SonarRuleKey="UndeclaredGlobalVariableUsing" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
 	<SonarRuleOverride SonarRuleKey="UnknownCssClass" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
-	<SonarRuleOverride SonarRuleKey="UnsafeCommaInObjectPropertiesList" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+	<SonarRuleOverride SonarRuleKey="UnsafeCommaInObjectPropertiesList" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
 	<SonarRuleOverride SonarRuleKey="UnusedAutoPropertyAccessor.Local" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
 	<SonarRuleOverride SonarRuleKey="UnusedLocalImport" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
 	<SonarRuleOverride SonarRuleKey="UnusedLocals" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
