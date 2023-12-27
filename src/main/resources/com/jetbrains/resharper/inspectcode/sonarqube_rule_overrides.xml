@@ -111,4 +111,6 @@
     <SonarRuleOverride SonarRuleKey="UsageOfPossiblyUnassignedValue" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
     <SonarRuleOverride SonarRuleKey="UseOfImplicitGlobalInFunctionScope" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
     <SonarRuleOverride SonarRuleKey="UsingOfReservedWord" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+    <SonarRuleOverride SonarRuleKey="UnusedAutoPropertyAccessor.Global" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+    <SonarRuleOverride SonarRuleKey="CollectionNeverUpdated.Global" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
 </Overrides>
