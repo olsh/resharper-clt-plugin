@@ -113,4 +113,11 @@
     <SonarRuleOverride SonarRuleKey="UsingOfReservedWord" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
     <SonarRuleOverride SonarRuleKey="UnusedAutoPropertyAccessor.Global" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
     <SonarRuleOverride SonarRuleKey="CollectionNeverUpdated.Global" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+    <SonarRuleOverride SonarRuleKey="CollectionNeverUpdated.Global" SonarRuleType="CODE_SMELL" SonarSeverity="MINOR"/>
+    <SonarRuleOverride SonarRuleKey="InconsistentContextLogPropertyNaming" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+    <SonarRuleOverride SonarRuleKey="InconsistentLogPropertyNaming" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+    <SonarRuleOverride SonarRuleKey="InconsistentLogPropertyNaming" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+    <SonarRuleOverride SonarRuleKey="LogMessageIsSentenceProblem" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+    <SonarRuleOverride SonarRuleKey="PositionalPropertyUsedProblem" SonarRuleType="CODE_SMELL" SonarSeverity="MAJOR"/>
+    <SonarRuleOverride SonarRuleKey="TemplateIsNotCompileTimeConstantProblem" SonarRuleType="CODE_SMELL" SonarSeverity="CRITICAL"/>
 </Overrides>
